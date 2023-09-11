@@ -1,5 +1,5 @@
 {% set name = "asdf-wcs-schemas" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/asdf_wcs_schemas-{{ version }}.tar.gz
-  sha256: e1c3ef0c9a715c9fd6f0362441dc6817633a26e4136955cad954385bd3521e4e
+  sha256: 0a13420a5d1996cf3025e43e83d7beeac0917d9e58a9eeec4ef83edcdfe8c742
 
 build:
   number: 0
