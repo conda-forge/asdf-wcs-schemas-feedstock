@@ -1,11 +1,11 @@
-About asdf-wcs-schemas
-======================
+About asdf-wcs-schemas-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asdf-wcs-schemas-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/asdf-format/asdf-wcs-schemas
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asdf-wcs-schemas-feedstock/blob/main/LICENSE.txt)
 
 Summary: ASDF WCS Schemas
 
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@WilliamJamieson](https://github.com/WilliamJamieson/)
 * [@mwcraig](https://github.com/mwcraig/)
 
