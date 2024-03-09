@@ -144,5 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@WilliamJamieson](https://github.com/WilliamJamieson/)
+* [@braingram](https://github.com/braingram/)
 * [@mwcraig](https://github.com/mwcraig/)
 
