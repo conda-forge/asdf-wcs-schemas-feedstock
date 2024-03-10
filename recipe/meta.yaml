@@ -1,5 +1,5 @@
 {% set name = "asdf-wcs-schemas" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/asdf_wcs_schemas-{{ version }}.tar.gz
-  sha256: 51e593bc3c2941bed381409f84b1a8cb60a003548e3b8b8caf06f337b5d034e5
+  sha256: c0bb44b8a5f16e2e23b028bcf4360729f5047a8d19063f1c8d817590d0b308b4
 
 build:
   number: 0
@@ -18,15 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
     - setuptools
     - setuptools-scm
   run:
-    - asdf-standard >=1.0.1
-    - asdf-transform-schemas >=0.3.0
-    - asdf-unit-schemas >=0.1.0
-    - importlib_resources >=3
-    - python >=3.8
+    - asdf-standard >=1.1.0
+    - asdf-transform-schemas >=0.5.0
+    - asdf-coordinates-schemas >=0.3.0
+    - python >=3.9
 
 test:
   imports:
@@ -47,4 +46,4 @@ extra:
   recipe-maintainers:
     - mwcraig
     - WilliamJamieson
-    - braingram 
+    - braingram
