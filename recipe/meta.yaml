@@ -45,5 +45,6 @@ about:
 extra:
   recipe-maintainers:
     - mwcraig
-    - WilliamJamieson
-    - braingram
+    - braingram 
+    - jhunkeler
+    - nden
