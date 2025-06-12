@@ -1,5 +1,5 @@
 {% set name = "asdf-wcs-schemas" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/asdf_wcs_schemas-{{ version }}.tar.gz
-  sha256: c0bb44b8a5f16e2e23b028bcf4360729f5047a8d19063f1c8d817590d0b308b4
+  sha256: af7bdda46c20195b97272d8d3fdc7d9286beb143dbd69503f59c5ee1fe1559b5
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -46,6 +46,6 @@ about:
 extra:
   recipe-maintainers:
     - mwcraig
-    - braingram 
+    - braingram
     - jhunkeler
     - nden
